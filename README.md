@@ -1,25 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Features:
+-: Key Features :-
 
-Tailwind design
-Tailwind animations and effects
-Full responsiveness
-Clerk Authentication (Email, Google, 9+ Social Logins)
-Client form validation and handling using react-hook-form
-Server error handling using react-toast
-Image Generation Tool (Open AI)
-Video Generation Tool (Replicate AI)
-Conversation Generation Tool (Open AI)
-Music Generation Tool (Replicate AI)
-Page loading state
-Stripe monthly subscription
-A free tier with API limiting
-How to write POST, DELETE, and GET routes in route handlers (app/api)
-Fetching data in server react components by directly accessing the database (WITHOUT API! like Magic!)
-How to handle relations between Server and Child components!
-How to reuse layouts
-Folder structure in Next 13 App Router
+◻️ Real-time database 🔗
+◻️ Notion-style editor 📝
+◻️ Light and Dark mode 🌓
+◻️ Infinite Children documents 🌲
+◻️ Trash can & soft delete 🗑️
+◻️ Authentication 🔐
+◻️ File upload
+◻️ File deletion
+◻️ File replacement
+◻️ Icons for each document (changes in real-time) 🌠
+◻️ Expandable sidebar ➡️🔀⬅️
+◻️ Full mobile responsiveness 📱
+◻️ Publish your note to the web 🌐
+◻️ Fully collapsable sidebar ↕️
+◻️ Landing page 🛬
+◻️ Cover image of each document 🖼️
+◻️ Recover deleted files 🔄📄
 
 ## Getting Started
 
