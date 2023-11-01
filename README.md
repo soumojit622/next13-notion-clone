@@ -20,7 +20,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - **Landing Page**: 🛬
 - **Cover Image for Each Document**: 🖼️
 - **Recover Deleted Files**: 🔄📄
--
 
 ## Getting Started
 
