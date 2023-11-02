@@ -9,9 +9,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - **Trash Can & Soft Delete**: 🗑️
 - **Authentication**: 🔐
 - **File Operations**:
-  - Upload
-  - Deletion
-  - Replacement
 - **Icons for Each Document (Changes in Real-Time)**: 🌠
 - **Expandable Sidebar**: ➡️🔀⬅️
 - **Full Mobile Responsiveness**: 📱
