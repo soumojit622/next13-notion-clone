@@ -44,9 +44,16 @@ Check out the live demo: [Notion Clone Demo](https://taskflow-blue.vercel.app/)
 
     Example:
     ```env
-    NEXT_PUBLIC_CLERK_FRONTEND_API=your-clerk-frontend-api
-    DATABASE_URL=your-database-url
+    CONVEX_DEPLOYMENT=
+    NEXT_PUBLIC_CONVEX_URL=
+
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+
+    EDGE_STORE_ACCESS_KEY=
+    EDGE_STORE_SECRET_KEY=
     ```
+
 
 4. Run the development server:
     ```bash
