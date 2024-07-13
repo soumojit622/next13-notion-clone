@@ -29,7 +29,7 @@ Check out the live demo: [Notion Clone Demo](https://taskflow-blue.vercel.app/)
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/notion-clone.git
+    git clone https://github.com/soumojit622/next13-notion-clone.git
     cd notion-clone
     ```
 
