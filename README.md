@@ -1,4 +1,24 @@
+# **Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind**
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Key Features
+
+- **Real-time Database**: 🔗
+- **Notion-Style Editor**: 📝
+- **Light and Dark Mode**: 🌓
+- **Infinite Children Documents**: 🌲
+- **Trash Can & Soft Delete**: 🗑️
+- **Authentication**: 🔐
+- **File Operations**:
+- **Icons for Each Document (Changes in Real-Time)**: 🌠
+- **Expandable Sidebar**: ➡️🔀⬅️
+- **Full Mobile Responsiveness**: 📱
+- **Publish Your Note to the Web**: 🌐
+- **Fully Collapsible Sidebar**: ↕️
+- **Landing Page**: 🛬
+- **Cover Image for Each Document**: 🖼️
+- **Recover Deleted Files**: 🔄📄
 
 ## Getting Started
 
