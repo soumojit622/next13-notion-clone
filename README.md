@@ -1,56 +1,102 @@
-# **Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind**
+[![Fullstack Notion Clone](https://github.com/soumojit622/next13-notion-clone/blob/master/public/banner.png)](https://taskflow-blue.vercel.app/)
+# 📝 Notion Clone Website
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Notion clone website built with [Next.js 13](https://nextjs.org/), [React](https://reactjs.org/), [Convex](https://convex.dev/), [Tailwind CSS](https://tailwindcss.com/), [Prisma](https://www.prisma.io/), [Clerk](https://clerk.dev/) authentication, and [Shadcn UI](https://shadcn.dev/). The project aims to replicate the core functionalities of Notion while providing additional features and a customizable UI.
 
-## Key Features
+## 🚀 Key Features
 
-- **Real-time Database**: 🔗
-- **Notion-Style Editor**: 📝
-- **Light and Dark Mode**: 🌓
-- **Infinite Children Documents**: 🌲
-- **Trash Can & Soft Delete**: 🗑️
-- **Authentication**: 🔐
-- **File Operations**:
-- **Icons for Each Document (Changes in Real-Time)**: 🌠
-- **Expandable Sidebar**: ➡️🔀⬅️
-- **Full Mobile Responsiveness**: 📱
-- **Publish Your Note to the Web**: 🌐
-- **Fully Collapsible Sidebar**: ↕️
-- **Landing Page**: 🛬
-- **Cover Image for Each Document**: 🖼️
-- **Recover Deleted Files**: 🔄📄
+- **Real-time Database**: 🔗 Real-time data synchronization powered by [Convex](https://convex.dev/).
+- **Notion-Style Editor**: 📝 Intuitive editor inspired by [Notion](https://www.notion.so/).
+- **Light and Dark Mode**: 🌓 Switch between light and dark themes seamlessly.
+- **Infinite Children Documents**: 🌲 Create and manage nested documents with ease.
+- **Trash Can & Soft Delete**: 🗑️ Recover deleted documents from the trash.
+- **Authentication**: 🔐 Secure user authentication via [Clerk](https://clerk.dev/).
+- **File Operations**: 📁 Manage files and attachments within your notes.
+- **Icons for Each Document (Changes in Real-Time)**: 🌠 Personalize your documents with unique icons.
+- **Expandable Sidebar**: ➡️🔀⬅️ Easily navigate through documents with an expandable sidebar.
+- **Full Mobile Responsiveness**: 📱 Optimized for mobile and tablet devices.
+- **Publish Your Note to the Web**: 🌐 Share your notes online with a public URL.
+- **Fully Collapsible Sidebar**: ↕️ Collapse the sidebar for a distraction-free workspace.
+- **Landing Page**: 🛬 Attractive landing page to welcome users.
+- **Cover Image for Each Document**: 🖼️ Add cover images to make your documents stand out.
+- **Recover Deleted Files**: 🔄📄 Retrieve deleted files effortlessly.
 
-## Getting Started
+## 🌐 Demo
 
-First, run the development server:
+Check out the live demo: [Notion Clone Demo](https://taskflow-blue.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/notion-clone.git
+    cd notion-clone
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up environment variables:
+    - Create a `.env.local` file in the root of the project.
+    - Add your environment variables (e.g., database URL, API keys, etc.) to this file.
 
-## Learn More
+    Example:
+    ```env
+    NEXT_PUBLIC_CLERK_FRONTEND_API=your-clerk-frontend-api
+    DATABASE_URL=your-database-url
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Technologies Used
 
-## Deploy on Vercel
+- **Next.js 13**: Framework for building server-side rendered React applications. [Learn more](https://nextjs.org/)
+- **React**: JavaScript library for building user interfaces. [Learn more](https://reactjs.org/)
+- **Convex**: Real-time database and backend framework. [Learn more](https://convex.dev/)
+- **Tailwind CSS**: Utility-first CSS framework. [Learn more](https://tailwindcss.com/)
+- **Prisma**: Database ORM for Node.js and TypeScript. [Learn more](https://www.prisma.io/)
+- **Clerk**: Authentication and user management solution. [Learn more](https://clerk.dev/)
+- **Shadcn UI**: UI component library. [Learn more](https://shadcn.dev/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes.
+4. Push your branch to your fork.
+5. Open a Pull Request.
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## 🙏 Acknowledgements
+
+- Thanks to the creators of the open-source libraries and tools used in this project.
+- Special thanks to [Notion](https://www.notion.so/) for the inspiration.
+
+---
+
+Feel free to reach out if you have any questions or need further assistance.
+
+Happy coding! 🚀
+
+## 🔮 Future Plans
+
+- **Collaboration Features**: Real-time collaboration with multiple users.
+- **Advanced Permissions**: Granular permissions for sharing and editing documents.
+- **Customizable Themes**: Allow users to create and apply custom themes.
+- **API Integration**: Integrate with external APIs for enhanced functionality.
+
+Stay tuned for more updates!
