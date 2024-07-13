@@ -107,3 +107,4 @@ Happy coding! 🚀
 - **API Integration**: Integrate with external APIs for enhanced functionality.
 
 Stay tuned for more updates!
+Made with ❤️ by [Soumojit Banerjee](https://github.com/soumojit622).
